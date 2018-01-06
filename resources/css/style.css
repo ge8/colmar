@@ -22,13 +22,13 @@ h2 {
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
 
 h4 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 2rem; /* ???? */
 }
 
@@ -129,6 +129,7 @@ nav span a {
   margin: 2rem 0;
   margin-right: 1.5rem;
   width: 28rem;
+  flex-shrink: 0;
 }
 
 .first-container h4 {
@@ -167,10 +168,12 @@ nav span a {
 
   display: flex;
   flex-flow: column;
+  flex-shrink: 0;
 }
 
 .column {
   display: flex;
+  flex-shrink: 0;
 }
 
 .small-image {
@@ -182,6 +185,10 @@ nav span a {
 .small-image img {
   width: 100%;
   height: auto;
+}
+
+.first-column {
+  margin-top: 2rem;
 }
 
 .column-text {
@@ -199,14 +206,57 @@ nav span a {
 /* Third Container */
 .third-container {
   padding-top: 2rem;
+  padding-bottom: 2rem;
 
   width: 100%;
   height: auto;
 
   background-color: lightgray;
-
 }
 
 .third-container h2 {
   text-align: center;
 }
+
+.courses-list {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.course {
+  width: 17rem;
+  height: auto;
+  margin: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: white;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
+
+.course-text {
+  padding: 1rem;
+}
+
+.course-text h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: gray;
+}
+
+.course-text h3 {
+  margin-bottom: 0.5rem;
+}
+
+
+
+
+
+/* Media for < 592 px */
