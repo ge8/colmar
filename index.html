@@ -5,6 +5,7 @@
     <title>Colmar Academy</title>
     <link rel="stylesheet" href="./resources/css/reset.css">
     <link rel="stylesheet" href="./resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Montserrat:400,700" rel="stylesheet">
   </head>
   <body>
     <!-- Header Container -->
@@ -53,8 +54,8 @@
       <div class="columns">
         <div class="column first-column">
           <div class="small-image">
-            <img class="desktop-image" src="./resources/images/information-orientation.jpg" alt="information-orientation">
-            <img class="mobile-image" src="./resources/images/information-orientation-mobile.jpg" alt="information-orientation-mobile">
+            <img class="desktop-image" src="./resources/images/information-orientation.jpg" alt="information-orientation"> <!-- Desktop View -->
+            <img class="mobile-image" src="./resources/images/information-orientation-mobile.jpg" alt="information-orientation-mobile"> <!-- Mobile View -->
           </div>
           <div class="column-text">
             <h3>Orientation Date</h3>
@@ -64,8 +65,8 @@
         </div>
         <div class="column">
           <div class="small-image">
-            <img class="desktop-image" src="./resources/images/information-campus.jpg" alt="information-campus">
-            <img class="mobile-image" src="./resources/images/information-campus-mobile.jpg" alt="information-campus-mobile">
+            <img class="desktop-image" src="./resources/images/information-campus.jpg" alt="information-campus"> <!-- Desktop View -->
+            <img class="mobile-image" src="./resources/images/information-campus-mobile.jpg" alt="information-campus-mobile"> <!-- Mobile View -->
           </div>
           <div class="column-text">
             <h3>Our Campus</h3>
@@ -75,8 +76,8 @@
         </div>
         <div class="column">
           <div class="small-image">
-            <img class="desktop-image" src="./resources/images/information-guest-lecture.jpg" alt="information-guest-lecture">
-            <img class="mobile-image" src="./resources/images/information-guest-lecture-mobile.jpg" alt="information-guest-lecture-mobile">
+            <img class="desktop-image" src="./resources/images/information-guest-lecture.jpg" alt="information-guest-lecture"> <!-- Desktop View -->
+            <img class="mobile-image" src="./resources/images/information-guest-lecture-mobile.jpg" alt="information-guest-lecture-mobile"> <!-- Mobile View -->
           </div>
           <div class="column-text">
             <h3>Our guest lecture</h3>
@@ -88,7 +89,7 @@
     </div>
 
     <!-- Third Container -->
-    <div class="third-container">
+    <div class="third-container third-container-desktop"> <!-- Desktop View -->
       <h2>Start Learning</h2>
       <div class="courses-list">
         <div class="course">
@@ -154,14 +155,25 @@
       </div>
     </div>
 
+    <div class="third-container third-container-mobile"> <!-- Mobile View -->
+      <h2>Start Learning</h2>
+        <div class="buttons">
+          <h3>Software engineering</h3>
+          <h3>Computer art</h3>
+          <h3>Design</h3>
+          <h3>Data</h3>
+          <h3>Business</h3>
+          <h3>Marketing</h3>
+        </div>
+    </div>
+
+
     <!-- Fourth Container -->
     <div class="fourth-container">
       <h2>Thesis Exhibit</h2>
-      <div class="second-container">
+      <div class="second-container fourth-container-desktop"> <!-- Desktop View -->
         <div class="first-left">
-          <video src="./resources/videos/thesis.mp4" autoplay muted loop>
-
-          </video>
+          <video src="./resources/videos/thesis.mp4" autoplay muted loop></video>
           <h3>Reimagine Urban</h3>
           <h5>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequate neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</h5>
         </div>
@@ -186,15 +198,18 @@
           </div>
         </div>
       </div>
+      <div class="fourth-container-mobile"> <!-- Mobile View -->
+        <video src="./resources/videos/thesis.mp4" autoplay muted loop></video>
+      </div>
     </div>
+
     <!-- Footer -->
     <footer>
       <span class="credits">&#169; 2016 Colmar Academy. All rights reserved</span>
-      <nav>
+      <nav class="footer-desktop"> <!-- Desktop View -->
         <span><a href="#">Terms</a></span>
         <span><a href="#">Privacy</a></span>
       </nav>
     </footer>
-
   </body>
 </html>
