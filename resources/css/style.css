@@ -149,7 +149,7 @@ nav span a {
   height: auto;
 
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .first-container .first-left {
@@ -198,7 +198,7 @@ nav span a {
   height: auto;
 
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .second-container .first-left {
@@ -280,7 +280,6 @@ nav span a {
 
   .columns .column {
     flex-flow: column;
-    justify-content: center;
     align-items: center;
     margin-right: 0;
     margin-bottom: 1.5rem;
@@ -348,6 +347,8 @@ nav span a {
 
 .course-text {
   padding: 1rem 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .course-text h5 {
@@ -392,14 +393,20 @@ footer {
   width: 100%;
   height: 4rem;
 
-  margin-left: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 
   border-top: 0.0625rem solid lightgray;
-
 }
 
 footer nav span, footer span, footer nav {
   font-size: 0.7rem;
   padding-top: 1rem;
+}
+
+footer nav {
+  margin-right: 1.5rem;
+}
+
+footer .credits {
+  margin-left: 1.5rem;
 }
