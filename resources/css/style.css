@@ -151,7 +151,7 @@ nav span a {
 .first-container .first-left {
   max-width: 58%;
   margin: 2rem 1.5rem;
-  align-self: center;
+  /* align-self: center; */
 }
 
 .first-container .first-left img {
@@ -226,7 +226,6 @@ nav span a {
   display: flex;
   flex-flow: column;
   flex-shrink: 0;
-  align-self: center;
 }
 
 .column {
@@ -246,7 +245,7 @@ nav span a {
 }
 
 .first-column {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .column-text {
@@ -355,6 +354,10 @@ nav span a {
 
 .course-text h3 {
   margin-bottom: 0.5rem;
+}
+
+.second-column {
+  margin-top: 2rem;
 }
 
 .third-container-mobile {
