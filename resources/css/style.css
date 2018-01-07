@@ -146,6 +146,7 @@ nav span a {
   height: auto;
 
   display: flex;
+  justify-content: center;
 }
 
 .first-container .first-left {
@@ -204,6 +205,7 @@ nav span a {
   margin-bottom: 2rem;
 
   display: flex;
+  justify-content: center;
 }
 
 .second-container .first-left {
