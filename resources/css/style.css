@@ -46,11 +46,6 @@ p {
   font-size: 0.85rem;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 a:hover {
   font-weight: bold;
 }
@@ -98,6 +93,11 @@ nav {
 
 nav span {
   margin-left: 1rem;
+}
+
+nav span a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .header-mobile {
@@ -185,6 +185,11 @@ nav span {
   color: white;
   text-align: center;
 }
+
+.first-container a {
+  text-decoration: none;
+}
+
 
 .first-container h4:hover {
   background-color: white;
